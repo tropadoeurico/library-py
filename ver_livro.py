@@ -1,15 +1,15 @@
-def ver_livro(biblioteca):
+def view_book(library):
 
-    biblioteca = [lista1, lista2, lista3]
-    emprestados = [lista4, lista5, lista6]
+    library = [list1, list2, list3]
+    borrowed = [list4, list5, list6]
 
-    print('Biblioteca: ')
-    print('Livros Disponíveis: ')
-    print(biblioteca)
+    print('Library: ')
+    print('Available books: ')
+    print(library)
     print("""
                                         """)
 
-    print('Livros Emprestados: ')
-    print(emprestados)
+    print('Borrowed books: ')
+    print(borrowed)
     print("""
                                         """)
