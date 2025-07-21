@@ -14,7 +14,7 @@ def return_book(list1, list2, list3, list4, list5, list6):
 
     if id in list4:
         if title in list5:
-            if author in lista6:
+            if author in list6:
                 list4.remove(id)
                 list5.remove(title)
                 list6.remove(author)
