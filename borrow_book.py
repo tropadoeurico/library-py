@@ -1,9 +1,9 @@
-def borrowed_book(list1, list2, list3, list4, list5, list6):
+def borrow_book(list1, list2, list3, list4, list5, list6):
 
     library = [list1, list2, list3]
     borrowed = [list4, list5, list6]
 
-    print('Borrowed book: (ID, Title, Author)')
+    print('Borrow book: (ID, Title, Author)')
     flag = False
     print('ID: ')
     id = int(input())       # Save the id to change.
