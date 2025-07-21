@@ -34,7 +34,7 @@ while True:
             remove_book(list1, list2, list3)
 
         if resposta == '3': # Borrow a Book.
-            borrow_book(list1, list2, list3, list4, list5, list6)
+            borrowed_book(list1, list2, list3, list4, list5, list6)
 
         if resposta == '4': # Return a Book.
             return_book(list1, list2, list3, list4, list5, list6)
