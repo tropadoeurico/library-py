@@ -3,30 +3,30 @@ def add_book(list1, list2, list3):
     biblioteca = [list1, list2, list3]
 
     flag = False
-    print('Add Book: (id, nome, autor)')
+    print('Add Book: (id, name, author)')
     print('ID: ')
-    id = int(input())   # Guarda o id.
+    id = int(input())   # Save the id.
 
     if id < 0:
-        print('Não é possível adicionar ids negativos à biblioteca.')
+        print('Cannot add negative ids to the library.')
 
     if id > 0:
-        print('Titulo: ')
-        titulo = input()    # Guarda o título.
-        print('Autor: ')
-        autor = input()     # Guarda o autor.
+        print('Title: ')
+        titulo = input()    # Save the title.
+        print('Author: ')
+        autor = input()     # Save the author.
 
         if id:
             if titulo:
                 if autor:
                     list1.append(id)
-                    list2.append(titulo)
-                    list3.append(autor)
+                    list2.append(title)
+                    list3.append(author)
                     flag = True
-                    print('O livro foi adicionado!')
+                    print('The book has been added!')
 
 
             if flag == False:
-                    print('Não é possível adicionar à biblioteca.')
+                    print('Unable to add to library.')
 
         return (list1,list2,list3)
