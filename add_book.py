@@ -1,9 +1,9 @@
 def add_book(list1, list2, list3):
 
-    biblioteca = [list1, list2, list3]
+    library = [list1, list2, list3]
 
     flag = False
-    print('Add Book: (id, name, author)')
+    print('Add Book: (id, title, author)')
     print('ID: ')
     id = int(input())   # Save the id.
 
@@ -12,13 +12,13 @@ def add_book(list1, list2, list3):
 
     if id > 0:
         print('Title: ')
-        titulo = input()    # Save the title.
+        title = input()    # Save the title.
         print('Author: ')
-        autor = input()     # Save the author.
+        author = input()     # Save the author.
 
         if id:
-            if titulo:
-                if autor:
+            if title:
+                if author:
                     list1.append(id)
                     list2.append(title)
                     list3.append(author)
